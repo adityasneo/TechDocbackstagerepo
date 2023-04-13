@@ -65,8 +65,10 @@ techdocs:
   generator:
     runIn: 'docker' # Alternatives - 'local'
   publisher:
-    type: 'local' # Alternatives - 'googleGcs' or 'awsS3'. Read documentation for using alternatives.
-
+    type: 'azureBlobStorage' # Alternatives - 'googleGcs' or 'awsS3'. Read documentation for using alternatives.
+    azureBlobStorage:
+      containerName: 'sneostrcon'
+      
 auth:
   # see https://backstage.io/docs/auth/ to learn about auth providers
   environment: development
