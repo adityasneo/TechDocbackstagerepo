@@ -74,7 +74,7 @@ auth:
     github:
       development:
         clientId: ffa77d99501348fc5b9f
-        clientSecret: 9c84eecc3eac797e98cf583325b05cad1716249c
+        clientSecret: b3c6bdb302aab111bb1d9f85cc37adc29be6028f
 
 scaffolder:
   # see https://backstage.io/docs/features/software-templates/configuration for software template options
