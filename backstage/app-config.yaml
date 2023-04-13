@@ -39,7 +39,7 @@ integrations:
     - host: github.com
       # This is a Personal Access Token or PAT from GitHub. You can find out how to generate this token, and more information
       # about setting up the GitHub integration here: https://backstage.io/docs/getting-started/configuration#setting-up-a-github-integration
-      token: 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
+      token: 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
     ### Example for how to add your GitHub Enterprise instance using the API:
     # - host: ghe.example.net
     #   apiBaseUrl: https://ghe.example.net/api/v3
