@@ -103,7 +103,14 @@ catalog:
       rules:
         - allow: [Template]
     - type: file
-      target: template.yaml    
+      target: template.yaml
+      
+    - type: url
+      target: https://github.com/adityasneo/TechDocbackstagerepo/blob/main/software-templates/test-docs/template.yaml
+      rules:
+        - allow: [Template]
+    - type: file
+      target: template.yaml  
 
     ## Uncomment these lines to add more example data
     # - type: url
