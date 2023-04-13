@@ -68,6 +68,9 @@ techdocs:
     type: 'azureBlobStorage' # Alternatives - 'googleGcs' or 'awsS3'. Read documentation for using alternatives.
     azureBlobStorage:
       containerName: 'sneostrcon'
+      credentials:
+        accountName: sneostrblob
+        accountKey: SCfLMgp5wPRpyJ7opkC3HGZyESN+s5zHmrNrgwVR7i+miujYLObE7NhZp2TK08GMLHrn0W6Opj2g+ASttx22Kg==
       
 auth:
   # see https://backstage.io/docs/auth/ to learn about auth providers
