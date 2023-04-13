@@ -73,13 +73,14 @@ techdocs:
         accountKey: SCfLMgp5wPRpyJ7opkC3HGZyESN+s5zHmrNrgwVR7i+miujYLObE7NhZp2TK08GMLHrn0W6Opj2g+ASttx22Kg==
       
 auth:
-  # see https://backstage.io/docs/auth/ to learn about auth providers
   environment: development
   providers:
     github:
       development:
         clientId: ffa77d99501348fc5b9f
-        clientSecret: b3c6bdb302aab111bb1d9f85cc37adc29be6028f
+        clientSecret: 24bb89cf44d431f49149ba528debe9352a3ac5c1
+        ## uncomment if using GitHub Enterprise
+        # enterpriseInstanceUrl: ${AUTH_GITHUB_ENTERPRISE_INSTANCE_URL}
 
 scaffolder:
   # see https://backstage.io/docs/features/software-templates/configuration for software template options
