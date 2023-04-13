@@ -39,7 +39,7 @@ integrations:
     - host: github.com
       # This is a Personal Access Token or PAT from GitHub. You can find out how to generate this token, and more information
       # about setting up the GitHub integration here: https://backstage.io/docs/getting-started/configuration#setting-up-a-github-integration
-      token: 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
+      token: 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
     ### Example for how to add your GitHub Enterprise instance using the API:
     # - host: ghe.example.net
     #   apiBaseUrl: https://ghe.example.net/api/v3
@@ -98,10 +98,6 @@ catalog:
       rules:
         - allow: [User, Group]
         
-    # Example component for TechDocs
-    - type: file
-      target: ../../plugins/techdocs-backend/examples/documented-component/catalog-info.yaml    
-        
     - type: url
       target: https://github.com/backstage/software-templates/blob/main/scaffolder-templates/react-ssr-template/template.yaml
       rules:
@@ -110,7 +106,7 @@ catalog:
       target: template.yaml
       
     - type: url
-      target: https://github.com/backstage/software-templates/blob/main/scaffolder-templates/docs-template/template.yaml
+      target: https://github.com/adityasneo/TechDocbackstagerepo/blob/main/software-templates/test-docs/template.yaml
       rules:
         - allow: [Template]
     - type: file
@@ -121,7 +117,7 @@ catalog:
     #   target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/all.yaml
 
     ## Uncomment these lines to add an example org
-    - type: url
-      target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/acme-corp.yaml
-      rules:
-        - allow: [User, Group]
+    # - type: url
+    #   target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/acme-corp.yaml
+    #   rules:
+    #     - allow: [User, Group]
